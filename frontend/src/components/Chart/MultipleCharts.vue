@@ -5,7 +5,7 @@
       <Bar :data="item" :options="options" v-if="dataArr" />
     </div>
 
-    <h2 class="mt-4 d-flex text-center">Brands/Retailer charts</h2>
+    <h2 class="mt-4 text-center">Brands/Retailer charts</h2>
     <div v-for="(brand, i) in brandDataArr" :key="'brand' + i" class="d-flex justify-content-center chart">
       <Bar :data="brand" :options="options" v-if="brandDataArr" />
     </div>
